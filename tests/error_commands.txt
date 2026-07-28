@@ -1,0 +1,17 @@
+commit "Commit before init"
+branch feature
+log
+init
+init "Alice" "Bob"
+init "Alice"
+branch
+branch feature
+branch feature
+switch unknown
+commit
+search
+log --sort-by=message
+path unknown1 unknown2
+ancestors unknown
+something
+quit

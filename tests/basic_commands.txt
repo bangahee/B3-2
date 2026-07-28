@@ -1,0 +1,11 @@
+init "Alice"
+commit "Initial commit"
+branch feature
+switch feature
+commit "Add login feature"
+switch main
+commit "Add payment feature"
+log
+log --sort-by=date
+log --sort-by=author
+quit

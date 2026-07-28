@@ -1,0 +1,8 @@
+init "Alice"
+commit "Initial commit"
+branch feature
+commit "Main branch work"
+switch feature
+commit "Feature branch work"
+log
+quit
