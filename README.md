@@ -1510,7 +1510,7 @@ O(k)
 | 커밋 생성 | Dictionary + 인덱스 갱신 | 평균 O(k) |
 | 부모 우선 LOG | DFS | O(V + E) |
 | 조상 탐색 | DFS | O(V + E) |
-| 일반 최단 경로 탐색 | BFS | O(V + E) |
+| 최단 경로 탐색 | BFS | 일반 BFS 기준 O(V + E), 동률 최단 경로 수에 따라 추가 비용 발생 가능 |
 | 날짜 정렬 | Merge Sort | O(n log n) |
 | 작성자 정렬 | Merge Sort | O(n log n) |
 | 단일 키워드 검색 | 역색인 | 평균 O(1 + r) |
